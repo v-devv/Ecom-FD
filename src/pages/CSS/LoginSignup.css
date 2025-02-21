@@ -1,0 +1,116 @@
+
+.LoginSignup{
+    width: 100%;
+    height: 80vh;
+    background: hsla(296, 93%, 94%, 0.822);
+    padding-top: 100px;
+}
+.LoginSignup-container{
+    width: 580px;
+    height: 480px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+
+}
+.LoginSignup-container h1{
+    margin: 20px 0px ;
+}
+.LoginSignup-Fields{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.LoginSignup-Fields input{
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid hsl(0, 0%, 79%);
+    color: hsl(0, 0%, 36%);
+    font-size: 1rem;
+    border-radius: 20px;
+    outline: none ;
+}
+.LoginSignup-container button{
+    width: 580px;
+    height: 60px;
+    color: white;
+    border-radius: 35px;
+    background: rgb(250, 88, 88);
+    margin-top: 30PX;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.LoginSignup-login span{
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+}
+.LoginSignup-agree{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 500; 
+}
+
+
+@media(max-width:1280px){
+    .LoginSignup{
+        padding-top: 50px;
+
+    }
+    .LoginSignup-container{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .LoginSignup-container h1{
+        margin: 10px 0px;
+    }
+    .LoginSignup-Fields{
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .LoginSignup-Fields input{
+        width: 93%;
+        height: 55px;
+    }
+    .LoginSignup-container button{
+        width: 100%;
+        
+    }
+    .LoginSignup-login{
+        font-size: 16px;
+    }
+    .LoginSignup-agree{
+        font-size: 14px;
+        gap: 10px;
+    }
+}
+
+@media(max-width:800px){
+    .LoginSignup-container{
+        padding: 20px 30px;
+
+    }
+    .LoginSignup-container h1{
+        font-size: 24px;
+    }
+    .LoginSignup-Fields{
+        margin-top: 20px;
+    }
+    .LoginSignup-Fields input{
+        height: 50px;
+    }
+    .LoginSignup-container button{
+        height: 50px;
+        font-size: 16px;
+    }
+}
